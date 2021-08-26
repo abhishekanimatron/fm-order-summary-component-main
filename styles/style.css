@@ -22,10 +22,14 @@ body {
   background-color: rgb(192, 224, 224);
 }
 /* BOX/CONTAINER STYLES */
-@media (min-width: 768px) {
+#outer-container {
+  max-width: 35%;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
   #outer-container {
-    max-width: 40%;
-    margin: auto;
+    max-width: 100%;
   }
 }
 
